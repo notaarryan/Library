@@ -9,11 +9,42 @@
 </head>
 
 <body>
+    <dialog>
+        <form>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author">
+            </div>
+
+            <div>
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+            </div>
+
+            <div>
+                <label for="pages">Number of Pages</label>
+                <input type="number" name="pages" id="pages">
+            </div>
+
+            <div>
+                <label for="read">Is the book read?</label>
+                <input type="checkbox" name="read" id="read">
+            </div>
+
+            <div>
+                <button value="cancel" formmethod="dialog" class="cancel">Cancel</button>
+                <button type="submit" id="submitButton">Submit</button>
+            </div>
+        </form>
+    </dialog>
     <div class="header">
-        Library
+        <div class="title">
+            Library
+        </div>
+        <button class="add">+ Add Book</button>
     </div>
     <div class="books-container">
-        <button class="add">+ Add Book</button> 
+
         <script src="./script.js"></script>
 </body>
 
