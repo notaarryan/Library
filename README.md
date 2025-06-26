@@ -1,4 +1,3 @@
-=======
 # 📚 Library App
 
 A modern, interactive library management app built using **HTML**, **CSS**, and **JavaScript**. This project allows users to dynamically add, view, update, and delete book entries—all within a clean UI and without a backend.
