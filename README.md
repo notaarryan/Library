@@ -16,6 +16,7 @@ A modern, interactive library management app built using **HTML**, **CSS**, and 
 - 📱 **Responsive Design**: Clean, adaptive layout using CSS Grid and Flexbox
 - 🔐 **Unique Book IDs**: Uses `crypto.randomUUID()` to track each book
 - ⚠️ **Invalid Form Highlighting**: Visual feedback for required inputs
+- 📦 **Encapsulated Logic**: Uses the Module Pattern with an IIFE to isolate scope and organize functionality
 
 ---
 
@@ -67,6 +68,8 @@ This project solidified my understanding of:
 - Modern JavaScript event handling
 - CSS component styling and responsiveness
 - Working with semantic HTML and the `<dialog>` element
+- Using the Module Pattern with IIFE for encapsulation
+- Structuring code in a modular and maintainable way
 
 ---
 
